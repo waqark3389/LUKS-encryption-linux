@@ -1,4 +1,4 @@
-BACKUP
+# BACKUP
 
 Backup the LUKS header, this is extremely important and comes in handy when a passphrase is changed and forgotten or the header becomes corrupt:
 
@@ -8,4 +8,4 @@ Backup the master key incase a passphrase is forgotten, this should be stored ei
 
 cryptsetup luksDump --dump-master-key /dev/xvdb1
 
-RESTORE
+# RESTORE
